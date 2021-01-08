@@ -80,14 +80,6 @@ h3
         -webkit-text-decoration:thistle;
         text-decoration:thistle}
         
-div
-
-{border-top:solid rgb(202,111,77) 10px;
-    border-right:solid rgb(202,111,77) 10px;
-    border-bottom:solid rgb(202,111,77)10px;
-    border-left:solid rgb(202,111,77) 10px}.rot{
-        margin-top:5rem auto;
-        transition:all 2s}
         
 .rot:focus
 
@@ -187,3 +179,26 @@ input[type=submit] {
             } 
 
 }
+
+.galeria {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 90%;
+    margin: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+}
+
+.galeria img {
+
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+
+
+}
+
