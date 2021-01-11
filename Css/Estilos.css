@@ -114,7 +114,7 @@ span
     margin:10px}
     
     
-@media screen and (min-width:375px) and (max-width:812px)
+@media screen and (min-width:375px) and (max-width:1200px)
 
 {
 
@@ -200,5 +200,23 @@ input[type=submit] {
     object-fit: cover;
 
 
+
 }
+
+.imaff {
+    
+    background-image:url("../Css/imagenes/imagen.jpg");
+    background-size:auto;
+    background-repeat:no-repeat;
+    widows:100px;
+    height:50vh;
+    background-position:center;
+    padding-bottom:17px;
+    padding-top:17px;
+    padding-left:17px;
+    padding-right:17px;
+    text-align:center
+
+}
+
 
